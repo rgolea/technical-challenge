@@ -8,5 +8,5 @@
     "target": "es2015"
   },
   "exclude": ["jest.config.ts", "**/*.spec.ts", "**/*.test.ts"],
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "../../libs/zod-validation-pipe/src/zod-validation.interceptor.ts", "../../libs/validators/src/lib/instances/instances.validators.ts", "../../libs/shared-types/src/lib/instances.types.ts", "../../libs/data-access/src/lib/instances/instances.model.ts"]
 }

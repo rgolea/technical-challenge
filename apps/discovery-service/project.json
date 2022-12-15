@@ -20,12 +20,7 @@
           "optimization": true,
           "extractLicenses": true,
           "inspect": false,
-          "fileReplacements": [
-            {
-              "replace": "apps/discovery-service/src/environments/environment.ts",
-              "with": "apps/discovery-service/src/environments/environment.prod.ts"
-            }
-          ]
+          "generatePackageJson": true
         }
       }
     },

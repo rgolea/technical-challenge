@@ -14,7 +14,22 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "disableSizeLimit": true,
+    "paths": {
+      "@technical-challenge/data-access": ["libs/data-access/src/index.ts"],
+      "@technical-challenge/logging-interceptor": [
+        "libs/logging-interceptor/src/index.ts"
+      ],
+      "@technical-challenge/mongoose-query-builder": [
+        "libs/mongoose-query-builder/src/index.ts"
+      ],
+      "@technical-challenge/shared-types": ["libs/shared-types/src/index.ts"],
+      "@technical-challenge/validators": ["libs/validators/src/index.ts"],
+      "@technical-challenge/zod-validation-interceptor": [
+        "libs/zod-validation-interceptor/src/index.ts"
+      ]
+    },
+    "strict": true
   },
   "exclude": ["node_modules", "tmp"]
 }
